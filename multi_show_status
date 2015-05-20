@@ -1,15 +1,5 @@
 #!/usr/bin/env bash
 
-# I wanted to pretty print the statuses of git repos in a set of folders.
-# I found a nice script[0] which i put in /usr/local/bin along with this file
-# and then I set the directories I want to check the first-level sub folders
-# [0] https://github.com/MikePearce/Git-Status
-# Note: I comment out the os.system('clear') so I get all the folders on one screen
-
-# cd /usr/local/bin
-# sudo ln -s ./path/to/GitStatus/show_status
-# sudo ln -s ./path/to/GitStatus/multi_show_status
-
 clear
 
 array=( '/var/www/vhosts' '/home/' '/home/user/programming/rust' '/home/user/programming/python' '/mnt/raid/backup_of_hippy_server' )
