@@ -37,13 +37,9 @@ and then I set the directories I want to check the first-level sub folders
 [0] https://github.com/MikePearce/Git-Status
 Note: I comment out the os.system('clear') so I get all the folders on one screen
 
-
-```bash	
-cd /usr/local/bin
-sudo ln -s ./path/to/GitStatus/show_status
-sudo ln -s ./path/to/GitStatus/multi_show_status
-```
-
+    cd /usr/local/bin
+    sudo ln -s ./path/to/GitStatus/show_status
+    sudo ln -s ./path/to/GitStatus/multi_show_status
 
 -- Warranties/Guarantees --
 None, you're on your own. If you'd like some help, mail me on mike@mikepearce.net
