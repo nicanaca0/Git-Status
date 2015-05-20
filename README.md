@@ -38,13 +38,11 @@ and then I set the directories I want to check the first-level sub folders
 Note: I comment out the os.system('clear') so I get all the folders on one screen
 
 
-'''bash
+```bash	
 cd /usr/local/bin
-
 sudo ln -s ./path/to/GitStatus/show_status
-
 sudo ln -s ./path/to/GitStatus/multi_show_status
-'''
+```
 
 
 -- Warranties/Guarantees --
